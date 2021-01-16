@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ninja Quiz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- top section -->
+  <div class="intro py-5 bg-danger text-center">
+    <div class="container">
+      <h2 class="text-light display-2 my-4">QuizUp!!</h2>
+    </div>
+  </div>
+
+  <!-- result section -->
+  <div class="result py-4 d-none bg-dark text-center">
+    <div class="container lead">
+      <p class = "text-light">Your Success rate is <span class="text-primary display-4 p-3">0%</span> </p>
+    </div>
+  </div>
+
+  <!-- quiz section -->
+  <div class="quiz py-4 bg-info">
+    <div class="container">
+      <h2 class="my-5 text-white">And Your Questions are...!!</h2>
+
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. Which of the following is the correct syntax to display “GeeksforGeeks” in an alert box using JavaScript?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="A" checked>
+            <label class="form-check-label">alert(“GeeksforGeeks”);</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="B">
+            <label class="form-check-label">msgbox(“GeeksforGeeks”);</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. The external JavaScript file must contain script tag. True or False?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="A" checked>
+            <label class="form-check-label">TRUE</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="B">
+            <label class="form-check-label">FALSE</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">3.Which of the following is not a reserved word in JavaScript?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="A" checked>
+            <label class="form-check-label">throw</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="B">
+            <label class="form-check-label">program</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">4.  What is the HTML tag under which one can write the JavaScript code?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="A" checked>
+            <label class="form-check-label">script tag</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="B">
+            <label class="form-check-label">js tag</label>
+          </div>
+        </div>
+        <div class="text-center">
+          <input type="submit" class="btn btn-light"> 
+        </div>
+      </form>
+
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
